@@ -121,6 +121,7 @@ button2.place(x=240, y=324)
 def change_color():
     colors = ["#FF073A", "#FF6F00", "#FFFF00", "#39FF14", "#1B03A3", "#FF10F0", "#9B4DFF", "#00FFFF", "#FF00FF", "#32CD32"]
     Devlabel["fg"] = random.choice(colors)
+    title_label["fg"] = random.choice(colors)
     root.after(300, change_color)
 
 def goweb():
